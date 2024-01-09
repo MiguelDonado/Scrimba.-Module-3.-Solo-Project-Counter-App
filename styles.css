@@ -1,0 +1,61 @@
+@font-face {
+    font-family: game;
+    src: url("fonts/PermanentMarker-Regular.ttf");
+}
+
+body {
+    background-image: url(images/eucaliptos.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-weight: bold;
+    text-align: center;
+    font-family: game;
+    color: #9A989F;
+    height: 100vh;
+}
+
+.container{
+    background: #191A18;
+    max-width: 80%;
+    margin: auto;
+    border: 3px solid dimgrey;
+    border-radius: 10px;
+}
+
+h1, p{
+    padding: 5px 10px;
+    margin-top: 20px;
+}
+
+h2{
+    font-weight: bold;
+    padding: 5px 10px;
+    font-size: 40px;
+}
+
+button{
+    padding: 6px 12px;
+    margin: 3px 6px;
+    font-weight: bold;
+    border-radius: 3px;
+    border: 1px solid black;
+    color: #191A18;
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+#increment-btn{
+    background-color: red;
+}
+
+#save-btn{
+    background-color: rgb(38, 240, 38);
+}
+
+#cont-btn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
